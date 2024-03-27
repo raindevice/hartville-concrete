@@ -10,8 +10,9 @@ body {
 }
 
 /* Typography */
-h1 {
-    color: white;
+h1,
+h2 {
+    color: black;
 }
 /* Header */
 header {
@@ -36,18 +37,26 @@ header li {
 
 header a {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 24px;
     color: #fff;
     transition: all 0.3s ease 0s;
 }
 
 header a:hover {
-    color: #fadca5;
+    color: #8f1515;
 }
 
 /* Sections */
 section {
     margin: 50px auto;
-    background-color: #555;
+    padding: 20px 0;
     text-align: center;
+}
+/* Home Section */
+#home-section {
+    background-color: #d6d6d6;
+}
+
+#home-section p {
+    padding: 10px 0;
 }
