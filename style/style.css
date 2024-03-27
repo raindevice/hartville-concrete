@@ -11,52 +11,77 @@ body {
 
 /* Typography */
 h1,
-h2 {
-    color: black;
+h2,
+p {
+    color: white;
 }
+
 /* Header */
+header a {
+    color: red;
+    text-decoration: none;
+}
+
 header {
     display: flex;
     width: 80%;
+    height: 100px;
     margin: auto;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 20px 50px;
-    /* box-shadow: 0 1px 8px #ddd; */
+    margin-top: 25px;
 }
 
-#nav-logo {
+#header-logo {
     width: 300px;
 }
 
-header li {
+nav {
+    /* border: 5px solid green; */
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 20px 0;
+    padding: 10px 0;
+}
+nav li {
     list-style: none;
     display: inline-block;
     padding: 0 20px;
 }
 
-header a {
+nav a {
     text-decoration: none;
     font-size: 24px;
     color: #fff;
     transition: all 0.3s ease 0s;
 }
 
-header a:hover {
-    color: #8f1515;
+nav a:hover {
+    color: red;
 }
 
 /* Sections */
 section {
-    margin: 50px auto;
+    margin: 20px auto;
     padding: 20px 0;
     text-align: center;
 }
+
+.section-container {
+    width: 60%;
+    margin: auto;
+}
+
 /* Home Section */
 #home-section {
-    background-color: #d6d6d6;
+    height: 400px;
+    background-color: #6e6e6e;
 }
 
 #home-section p {
     padding: 10px 0;
 }
+
+
+
+/* About Section */
