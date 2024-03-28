@@ -72,16 +72,25 @@ section {
     margin: auto;
 }
 
+.section-container.gray {
+    background-color: #6e6e6e;
+}
+
 /* Home Section */
-#home-section {
+.gray-section {
     height: 400px;
     background-color: #6e6e6e;
 }
 
-#home-section p {
+.gray-section p {
     padding: 10px 0;
 }
 
 
 
 /* About Section */
+
+/* Footer */
+footer {
+    text-align: center;
+}
