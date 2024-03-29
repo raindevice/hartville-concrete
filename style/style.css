@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -91,7 +92,7 @@ nav a:hover {
 section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     margin: 20px auto;
     padding: 20px 0;
@@ -165,5 +166,12 @@ footer > p {
 
     h2 {
         font-size: 20px;
+    }
+
+    #myBtn {
+        font-size: 16px;
+        padding: 5px;
+        right: 15px;
+        bottom: 10px;
     }
 }
