@@ -135,9 +135,24 @@ footer {
         padding: 20px;
     }
 
+    nav {
+        margin-top: 10px;
+        width: 60%;
+    }
+
     ul {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        /* justify-content: space-between; */
+        text-align: center;
+    }
+
+    ul > li {
+        padding: 10px;
+    }
+
+    li > a {
+        font-size: 18px;
     }
 
     h2 {
