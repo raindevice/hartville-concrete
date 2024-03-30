@@ -53,7 +53,7 @@ header a {
 
 header {
     display: flex;
-    width: 80%;
+    width: 60%;
     margin: auto;
     justify-content: space-between;
     align-items: center;
