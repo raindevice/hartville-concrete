@@ -69,7 +69,6 @@ span {
 }
 
 /* Navigation */
-
 nav {
     max-width: 900px;
     display: flex;
@@ -98,7 +97,6 @@ nav a:hover {
 section {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     margin: 20px auto;
     padding: 20px 0;
