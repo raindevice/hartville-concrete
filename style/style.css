@@ -68,6 +68,8 @@ span {
     padding: 0 10px;
 }
 
+/* Navigation */
+
 nav {
     max-width: 900px;
     display: flex;
