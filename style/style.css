@@ -108,6 +108,29 @@ section {
     margin: auto;
 }
 
+#redirect {
+    width: 100%;
+    margin-top: 200px;
+    text-align: center;
+}
+
+#redirect p {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+#redirect a {
+    font-style: italic;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#redirect a:hover {
+    color: rgb(211, 0, 0);
+}
+
 .section-container.gray {
     background-color: #6e6e6e;
 }
