@@ -112,6 +112,11 @@ section {
     width: 100%;
     margin-top: 200px;
     text-align: center;
+    padding: 0 20px;
+}
+
+#redirect h1 {
+    font-size: 48px;
 }
 
 #redirect p {
@@ -238,6 +243,10 @@ footer > p {
 
     h2 {
         font-size: 20px;
+    }
+
+    #redirect h1 {
+        font-size: 36px;
     }
 
     #myBtn {
