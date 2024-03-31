@@ -183,7 +183,7 @@ textarea {
     width: 100%;
 }
 
-#submitBtn {
+input[type=submit] {
     border: none;
     outline: none;
     background-color: rgb(211, 0, 0);
@@ -258,7 +258,7 @@ footer > p {
     label {
         font-size: 16px;
     }
-    #submitBtn {
+    input[type=submit] {
         font-size: 16px;
         padding: 8px;
     }
