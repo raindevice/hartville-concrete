@@ -68,21 +68,23 @@
                 <h2>
                     Reach out to us today to get a quote!
                 </h2>
-                <div class="form-container">
-                    <form method="get" action="quoteform.php">
+                <form method="get" action="quoteform.php">
+                    <div class="form-container">
                         <label for="fname">First Name</label>
-                        <input type="text" name="firstname" id="fname" placeholder="Your first name.." required>
+                        <input type="text" name="fname" id="fname" placeholder="John" required>
                         <label for="lname">Last Name</label>
-                        <input type="text" name="lastname" id="lname" placeholder="Your last name.." required>
+                        <input type="text" name="fname" id="lname" placeholder="Doe" required>
                         <label for="email">Email</label>
-                        <input type="text" name="email" id="email" placeholder="Enter an email address" required>
+                        <input type="text" name="email" id="email" placeholder="johndoe@email.com" required>
                         <label for="phone">Phone</label>
                         <input type="text" name="phone" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-                        <label for="message">Services required</label>
-                        <input type="text" name="message" id="message" required>
+                        <label for="message">Message</label>
+                        <br>
+                        <textarea name="message" cols="30" rows="10"></textarea>
+                        <br>
                         <button>Submit</button>
-                    </form>
-                </div>
+                    </div>
+                </form>
             </div>
         </section>
         <footer>
