@@ -68,9 +68,21 @@
                 <h2>
                     Reach out to us today to get a quote!
                 </h2>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum id quis aperiam tenetur voluptate veniam. Consequatur soluta maiores, velit illum sequi aliquid libero quod alias eaque nemo architecto harum numquam sint provident delectus voluptas, aperiam dolores nulla amet illo odio inventore. Dolor, fugit. Repellendus ut magni, reprehenderit iusto rerum sequi. Dolore officiis libero a ea officia nisi recusandae nulla consequuntur incidunt, omnis magni culpa hic cum debitis cupiditate dicta totam commodi reprehenderit ad aperiam. Et voluptatum suscipit quas reiciendis sed, sit amet. Id nobis, enim vitae molestiae eius accusantium quisquam ad voluptates fugit, quis modi. Necessitatibus cumque magni tempora repudiandae?
-                </p>
+                <div class="form-container">
+                    <form method="get" action="quoteform.php">
+                        <label for="fname">First Name</label>
+                        <input type="text" name="firstname" id="fname" placeholder="Your first name.." required>
+                        <label for="lname">Last Name</label>
+                        <input type="text" name="lastname" id="lname" placeholder="Your last name.." required>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" placeholder="Enter an email address" required>
+                        <label for="phone">Phone</label>
+                        <input type="text" name="phone" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                        <label for="message">Services required</label>
+                        <input type="text" name="message" id="message" required>
+                        <button>Submit</button>
+                    </form>
+                </div>
             </div>
         </section>
         <footer>
