@@ -36,10 +36,6 @@ a:hover {
     color: rgb(211, 0, 0);
 }
 
-#header-contact {
-    font-size: 16px;
-}
-
 span {
     display: block;
     margin-top: 5px;
@@ -58,6 +54,7 @@ header {
 
 #header-contact {
     text-align: center;
+    font-size: 16px;
 }
 
 #myBtn {
