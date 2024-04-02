@@ -29,11 +29,11 @@ span {
 a {
     font-size: 16px;
     text-decoration: none;
-    color: red;
+    color: white;
 }
 
 a:hover {
-    color: rgb(211, 0, 0);
+    color: red;
 }
 
 span {
@@ -73,6 +73,32 @@ header {
     font-size: 18px;
   }
   
-  #myBtn:hover {
+#myBtn:hover {
     background-color: #555;
   }
+
+  /* Navigation */
+.nav-container {
+    background: #333;
+    width: 100%;
+  }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+
+/* Media Queries */
+@media screen and (min-width: 700px) {
+    nav {
+        display: block;
+        max-width: 60%;
+        margin: 30px;
+        padding: 0 40px;
+    }
+
+    a {
+        text-align: center;
+    }
+}
