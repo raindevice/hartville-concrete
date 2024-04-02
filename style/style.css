@@ -40,6 +40,11 @@ a:hover {
     font-size: 16px;
 }
 
+span {
+    display: block;
+    margin-top: 5px;
+}
+
 /* Header */
 header {
     margin: 0 auto;
