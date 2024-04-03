@@ -103,13 +103,14 @@ nav {
 
 /* Section */
 .section-container {
-    margin: 10px auto;
+    margin: 0 auto;
     padding: 10px;
     text-align: center;
 }
 
 /* Home Section */
-#home-section {
+#home-section,
+#services-section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -159,10 +160,11 @@ nav {
         font-size: 20px;
     }
 
-    #home-section {
+    #home-section,
+    #services-section {
         width: 80%;
         align-items: center;
-        margin: auto;
+        margin: 0 auto;
     }
 
     #home-img {
