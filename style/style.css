@@ -116,11 +116,20 @@ nav {
     justify-content: center;
     flex-wrap: wrap;
     padding: 15px;
+    background-color: #555;
+    width: 100%;
 }
 
 #home-img {
     width: 100%;
     border-radius: 10px;
+}
+
+#home-hero {
+    font-size: 20px;
+    padding: 10px;
+    line-height: 32px;
+    text-shadow: 1px 1px 2px black;
 }
 
 /* Media Queries */
@@ -141,4 +150,28 @@ nav {
         padding: 15px;
         font-size: 20px;
     }
+
+    #home-section {
+        /* flex-wrap: nowrap; */
+        width: 80%;
+        align-items: center;
+        margin: auto;
+    }
+
+    #home-img {
+        width: 60%;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    #home-hero {
+        padding-left: 30px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    #home-section {
+        flex-wrap: nowrap;
+    }
+    
 }
