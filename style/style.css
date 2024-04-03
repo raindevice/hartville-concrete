@@ -87,9 +87,16 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    padding: 15px 0;
+    padding: 10px 0;
     gap: 20px;
   }
+
+/* Section */
+.section-container {
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+}
 
 /* Media Queries */
 @media screen and (min-width: 700px) {
