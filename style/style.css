@@ -13,17 +13,20 @@ body {
 /* Typography */
 h1,
 h2,
+h3,
 p {
     color: white;
-}
-
-h2 {
-    padding: 10px 0;
 }
 
 h2,
 span {
     font-size: 20px;
+}
+
+h3,
+span {
+    font-size: 14px;
+    text-align: center;
 }
 
 a {
@@ -39,7 +42,15 @@ a:hover {
 
 span {
     display: block;
-    margin-top: 5px;
+    margin: 5px 0;
+}
+
+span a {
+    color: red;
+}
+
+span a:hover {
+    color: white;
 }
 
 /* Header */
@@ -56,6 +67,7 @@ header {
 #header-contact {
     text-align: center;
     font-size: 16px;
+    padding-top: 10px;
 }
 
 #myBtn {
@@ -96,6 +108,19 @@ nav {
     margin: 10px auto;
     padding: 10px;
     text-align: center;
+}
+
+/* Home Section */
+#home-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+#home-img {
+    width: 100%;
+    border-radius: 10px;
 }
 
 /* Media Queries */
