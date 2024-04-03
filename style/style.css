@@ -36,7 +36,7 @@ a {
 }
 
 a:hover {
-    color: red;
+    color: rgb(158, 0, 0);
 }
 
 span {
@@ -90,7 +90,7 @@ header {
 
   /* Navigation */
 .nav-container {
-    background: #333;
+    background: #727272;
     width: 100%;
   }
 
@@ -101,21 +101,22 @@ nav {
     gap: 20px;
   }
 
-/* Section */
-.section-container {
-    margin: 0 auto;
-    padding: 10px;
-    text-align: center;
+
+#home-section,
+#services-section {
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #333;
+    width: 100%;
 }
 
 /* Home Section */
-#home-section,
-#services-section {
+#home-section {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     padding: 15px;
-    background-color: #555;
     width: 100%;
 }
 
@@ -131,6 +132,43 @@ nav {
     text-shadow: 1px 1px 2px black;
 }
 
+/* Services Section */
+#services-section h2 {
+    text-align: center;
+    margin: 5px 0 auto;
+}
+
+.services-container,
+.customer-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    padding: 10px;
+}
+
+.services-container {
+    column-count: 2;
+    border-bottom: 3px solid #727272;
+    margin-bottom: 15px;
+}
+
+.services-container li,
+.customer-container li {
+    list-style-type: disc;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+
+.services-container li,
+.customer-container li {
+    list-style-type: none;
+    line-height: 24px;
+}
+
+
+
 /* Media Queries */
 @media screen and (min-width: 700px) {
     /* Typography */
@@ -143,6 +181,7 @@ nav {
         font-size: 20px;
     }
 
+    /* Navigation */
     .nav-container {
         margin: auto;
     }
@@ -151,7 +190,7 @@ nav {
         display: flex;
         justify-content: center;
         max-width: 100%;
-        margin: 30px auto;
+        margin: 10px auto;
         padding: 0 40px;
     }
 
@@ -160,15 +199,17 @@ nav {
         font-size: 20px;
     }
 
-    #home-section,
-    #services-section {
+    /* Sections */
+    .home-section,
+    .services-section {
         width: 80%;
         align-items: center;
         margin: 0 auto;
     }
 
     #home-img {
-        width: 60%;
+        width: 50%;
+        height: auto;
         margin-top: 20px;
         border-radius: 10px;
     }
@@ -181,6 +222,5 @@ nav {
 @media screen and (min-width: 1400px) {
     #home-section {
         flex-wrap: nowrap;
-    }
-    
+    }    
 }
