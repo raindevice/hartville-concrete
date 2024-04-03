@@ -28,6 +28,7 @@ span {
 
 a {
     font-size: 16px;
+    font-weight: 700;
     text-decoration: none;
     color: white;
 }
@@ -85,20 +86,27 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-between;
-    padding: 15px;
+    justify-content: center;
+    padding: 15px 0;
+    gap: 20px;
   }
 
 /* Media Queries */
 @media screen and (min-width: 700px) {
+    .nav-container {
+        margin: auto;
+    }
+    
     nav {
-        display: block;
-        max-width: 60%;
-        margin: 30px;
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        margin: 30px auto;
         padding: 0 40px;
     }
 
-    a {
-        text-align: center;
+    nav a {
+        padding: 15px;
+        font-size: 20px;
     }
 }
