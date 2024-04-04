@@ -155,19 +155,13 @@ nav {
 
 .services-container li,
 .customer-container li {
-    list-style-type: disc;
+    list-style-type: none;
     color: white;
     font-style: italic;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
-}
-
-.services-container li,
-.customer-container li {
-    list-style-type: none;
     line-height: 28px;
 }
-
 
 
 /* Media Queries */
