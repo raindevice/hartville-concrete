@@ -103,7 +103,8 @@ nav {
 
 
 #home-section,
-#services-section {
+#services-section,
+#work-section {
     padding: 15px;
     margin-top: 20px;
     background-color: #333;
@@ -133,7 +134,8 @@ nav {
 }
 
 /* Services Section */
-#services-section h2 {
+#services-section h2,
+#work-section h2 {
     text-align: center;
     margin: 5px 0 auto;
 }
@@ -163,7 +165,35 @@ nav {
     line-height: 28px;
 }
 
+/* Work Section */
+.photo-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 4px;
+    margin-top: 5px;
+}
 
+.photo-column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.photo-column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    max-height: 300px;
+}
+
+/* Contact Section and Form */
+
+/* Footer */
+footer {
+    text-align: center;
+    margin: 15px auto;
+}
 /* Media Queries */
 @media screen and (min-width: 700px) {
     /* Typography */
@@ -218,4 +248,19 @@ nav {
     #home-section {
         flex-wrap: nowrap;
     }    
+}
+
+/* Work Photo Grid Media Queries */
+@media screen and (max-width: 800px) {
+    .photo-column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .photo-column {
+        flex: 100%;
+        max-width: 100%;
+    }
 }
