@@ -59,7 +59,7 @@ header {
 
 #header-logo {
     display: block;
-    margin: auto;
+    margin: 10px auto 0 auto;
 }
 
 #header-contact {
