@@ -52,6 +52,7 @@ span a:hover {
     color: white;
 }
 
+
 /* Header */
 header {
     margin: 0 auto;
@@ -298,6 +299,7 @@ footer {
     }
 
     #home-img {
+        width: 40%;
         height: auto;
         margin-top: 20px;
         border-radius: 10px;
