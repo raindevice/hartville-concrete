@@ -133,7 +133,6 @@ nav a {
     font-size: 20px;
     padding: 10px;
     line-height: 32px;
-    text-shadow: 1px 1px 2px black;
 }
 
 /* Services Section */
@@ -335,5 +334,9 @@ footer {
 
     #header-logo {
         width: 70%;
+    }
+
+    #home-hero {
+        font-size: 16px;
     }
 }
