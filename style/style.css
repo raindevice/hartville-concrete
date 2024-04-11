@@ -100,7 +100,8 @@ nav {
     gap: 20px;
   }
 
-nav a {
+.nav-container a {
+
     text-decoration: underline;
 }
 
@@ -259,6 +260,7 @@ footer {
     text-align: center;
     margin: 15px auto;
 }
+
 /* Media Queries */
 @media screen and (min-width: 700px) {
     /* Typography */
@@ -331,6 +333,13 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    
     .photo-column {
         flex: 100%;
         max-width: 100%;
@@ -346,5 +355,9 @@ footer {
 
     label {
         font-size: 16px;
+    }
+
+    nav a {
+        font-size: 14px;
     }
 }
