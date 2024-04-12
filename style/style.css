@@ -101,7 +101,7 @@ nav {
   }
 
 .nav-container a {
-
+    text-align: center;
     text-decoration: underline;
 }
 
@@ -333,14 +333,14 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-    .nav-container {
+    nav {
         display: flex;
         flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
+        margin: auto;
     }
     
     nav a {
+        text-align: center;
         font-size: 14px;
     }
     
