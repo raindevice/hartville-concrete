@@ -340,6 +340,10 @@ footer {
         justify-content: center;
     }
     
+    nav a {
+        font-size: 14px;
+    }
+    
     .photo-column {
         flex: 100%;
         max-width: 100%;
@@ -357,7 +361,7 @@ footer {
         font-size: 16px;
     }
 
-    nav a {
-        font-size: 14px;
+    .form-container {
+        width: 90%;
     }
 }
