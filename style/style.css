@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Oswald', Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
@@ -15,7 +15,7 @@ h1,
 h2,
 h3,
 p {
-    color: white;
+    color: rgb(224, 224, 224);
 }
 
 h2 {
@@ -40,7 +40,7 @@ a:hover {
 
 span {
     display: block;
-    margin: 0;
+    margin-top: 10px;
 }
 
 span a {
@@ -66,6 +66,7 @@ header {
     text-align: center;
     font-size: 18px;
     padding-bottom: 10px;
+    margin-top: 10px;
 }
 
 #myBtn {
@@ -115,13 +116,13 @@ nav {
 }
 
 /* Home Section */
-#home-section {
+.home-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    margin: auto;
     padding: 15px;
-    width: 100%;
+    width: 80%;
 }
 
 #home-img {
@@ -282,7 +283,7 @@ footer {
         display: flex;
         justify-content: center;
         max-width: 100%;
-        margin: 10px auto;
+        margin: 20px auto 5px auto;
         padding: 0 40px;
     }
 
