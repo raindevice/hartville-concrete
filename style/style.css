@@ -319,7 +319,9 @@ footer {
 }
 
 @media screen and (min-width: 1400px) {
-    #home-section {
+    .home-container {
+        display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
         width: 100%;
         margin: auto;
@@ -365,4 +367,12 @@ footer {
     .form-container {
         width: 90%;
     }
+
+     .home-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: auto;
+    }  
 }
