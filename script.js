@@ -17,3 +17,10 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+const hamburgerMenu = document.querySelector(".hamburger-menu");
+const nav = document.querySelector(".nav");
+
+hamburgerMenu.addEventListener("click", () => {
+  nav.classList.toggle("active")
+});
