@@ -73,14 +73,14 @@ header {
     display: none;
     position: fixed;
     bottom: 20px;
-    right: 30px;
+    right: 10px;
     z-index: 99;
     border: none;
     outline: none;
     background-color: rgb(211, 0, 0);
     color: white;
     cursor: pointer;
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
     font-size: 18px;
   }
@@ -252,7 +252,7 @@ input[type=submit] {
     background-color: rgb(211, 0, 0);
     color: white;
     cursor: pointer;
-    padding: 15px;
+    padding: 12px 18px;
     margin: auto;
     border-radius: 10px;
     font-size: 18px;    
@@ -265,7 +265,8 @@ input[type=submit] {
 /* Footer */
 footer {
     text-align: center;
-    margin: 15px auto;
+    margin: 0 auto 80px auto;
+    padding: 0;
 }
 
 /* Media Queries */
@@ -322,12 +323,8 @@ footer {
     .form-container {
         width: 40%;
     }
-}
-
-@media screen and (min-width: 1400px) {
     .home-container {
         display: flex;
-        flex-direction: column;
         flex-wrap: wrap;
         width: 100%;
         margin: auto;
@@ -339,9 +336,7 @@ footer {
         flex: 50%;
         max-width: 50%;
     }
-}
 
-@media screen and (max-width: 600px) {
     .nav {
         display: none;
     }
@@ -372,8 +367,13 @@ footer {
         width: 70%;
     }
 
+    #home-img {
+        width: 70%;
+    }
+
     #home-hero {
         font-size: 16px;
+        width: 100%;
     }
 
     label {
@@ -384,7 +384,7 @@ footer {
         width: 90%;
     }
 
-     .home-container {
+    .home-container {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
