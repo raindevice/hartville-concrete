@@ -278,7 +278,7 @@ footer {
 }
 
 /* Media Queries */
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 500px) {
     /* Typography */
     h2 {
         font-size: 24px;
@@ -318,7 +318,7 @@ footer {
     #home-img {
         width: 40%;
         height: auto;
-        margin-top: 20px;
+        margin: 20px auto 20px auto;
         border-radius: 10px;
     }
 
@@ -343,6 +343,8 @@ footer {
     #home-img {
         display: none;
     }
+
+    
 }
 
 @media screen and (max-width: 800px) {
@@ -405,4 +407,10 @@ footer {
         width: 100%;
         margin: auto;
     }  
+}
+
+@media screen and (min-width: 800px) {
+    #about-heading {
+        display: none;
+    }
 }
