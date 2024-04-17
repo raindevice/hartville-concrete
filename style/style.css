@@ -210,7 +210,7 @@ header {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
-    max-height: 500px;
+    height: 15%;
 }
 
 /* Contact Section and Form */
@@ -358,7 +358,7 @@ footer {
 
 @media screen and (max-width: 800px) {
     .photo-column {
-        flex: 50%;
+        flex: 1;
         max-width: 50%;
     }
 
@@ -381,11 +381,6 @@ footer {
         display: block;
         z-index: 2;
         color: white;
-    }
-    
-    .photo-column {
-        flex: 100%;
-        max-width: 100%;
     }
 
     #header-logo {
