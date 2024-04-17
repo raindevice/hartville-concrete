@@ -79,11 +79,10 @@ header {
     word-spacing: 5px;
 }
 
-#header-contact {
+#header-quote {
     text-align: center;
     font-size: 18px;
-    padding-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 #myBtn {
@@ -146,6 +145,18 @@ header {
     margin: auto;
     padding: 15px;
     width: 80%;
+    position: relative;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    max-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+    opacity: 20%;
 }
 
 #home-img {
