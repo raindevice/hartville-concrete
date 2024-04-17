@@ -152,9 +152,8 @@ video {
     position: absolute;
     top: 0;
     left: 0;
-    object-fit: cover;
+    object-fit: contain;
     max-width: 100%;
-    min-height: 100%;
     z-index: -100;
     opacity: 20%;
 }
@@ -359,14 +358,21 @@ footer {
     }    
 }
 
+@media screen and (min-width: 800px) {
+    #about-heading {
+        display: none;
+    }
+
+    #services-section {
+        /* margin: 0; */
+    }
+}
+
 @media screen and (max-width: 800px) {
     #home-img {
         display: none;
     }
 
-    video {
-        min-height: 50%;
-    }
     .photo-column {
         flex: 1;
         max-width: 50%;
@@ -423,8 +429,8 @@ footer {
     }  
 }
 
-@media screen and (min-width: 800px) {
-    #about-heading {
+@media screen and (max-width: 900px) {
+    video {
         display: none;
     }
 }
