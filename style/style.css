@@ -206,6 +206,7 @@ video {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: normal;
     padding: 0 4px;
     margin-top: 5px;
 }
@@ -218,7 +219,6 @@ video {
 
 .photo-column img {
     margin-top: 8px;
-    vertical-align: middle;
     width: 100%;
     height: 15%;
 }
