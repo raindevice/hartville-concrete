@@ -187,8 +187,8 @@ video {
 
 .services-container {
     column-count: 2;
-    border-bottom: 3px solid #727272;
-    margin-bottom: 15px;
+    border-bottom: 3px solid #4b4b4b;
+    margin-bottom: 25px;
 }
 
 .services-container li,
