@@ -64,6 +64,12 @@ span a:hover {
 /* Header */
 header {
     margin: 0 auto;
+    background-image: url('../assets/header-gif.gif');
+    background-color: rgba(54, 54, 54, 0.6);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
 }
 
 #header-logo {
